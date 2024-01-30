@@ -9,20 +9,20 @@
             font-family: Arial, Helvetica, sans-serif;
         }
         table{
-            width: 400px; 
+            width: 400px;
+            height: 400px; 
             border-collapse: collapse;
-            
         }
-        tr.linha{
-            background-color: gray;
+        .numero{
+            text-align: right;
         }
         td{
             border: 1px solid black;
-            padding: 8px;
+            padding: 8px; /*Alinhamento horizontal*/
+            text-align: center;
+            vertical-align: middle;/**Alinhamento vertical: botton,top,middle(padrçao), */
         }
-        td.dado{
-            background-color: yellow;
-        }
+
     </style>
 </head>
 <body>
@@ -38,28 +38,22 @@
             <td>B1
             <td>C1
         
-        <tr class="linha"> <!--Segunda Linha-->
+        <tr class=> <!--Segunda Linha-->
             <td>A2</td>
             <td>B2</td>
-            <td>C2</td>
+            <td class="numero">C2</td>
         </tr>
         <tr> <!--Terceira Linha-->
             <td>A3</td>
             <td>B3</td>
-            <td>C3</td>
+            <td class="numero">C3</td>
         </tr>
         <tr> <!--Quarta Linha-->
             <td>A4</td>
             <td>B4</td>
             <td class="dado">C4</td>
         </tr>
-        <tr>
-            <td>A5</td>
-            <td>B5</td>
-        </tr>
-        <tr>
-            <td>A6</td>
-        </tr>
+
     </table>
 </body>
 </html>
