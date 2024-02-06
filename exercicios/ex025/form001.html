@@ -12,7 +12,8 @@
 </head>
 <body>
     <h1>meu primeiro formulário</h1>
-    <form action="cadastro.php" autocomplete="off">
+    <!--Por padrão html usa o metodo get, o metodo get suporta até 300 bytes para o envio-->
+    <form action="cadastro.php" method="post" autocomplete="off">
         <p><label for="inome">nome:</label>
              <input type="text" name="nome" id="inome"></p>
         <p><label for="isobrenome">sobrenome:</label>
