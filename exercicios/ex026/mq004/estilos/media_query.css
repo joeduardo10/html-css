@@ -28,7 +28,7 @@ Grandes Telas acima de 1200px:
         color: black;
     }
     main::after{
-        content: 'essa impressção foi feita pelo Curso em Video';
+        content: 'essa impressão foi feita pelo Curso em Video';
         text-decoration: overline;
     }
 }
